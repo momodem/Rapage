@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>BLACKSHEEP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="img/favicon.ico" />
+<style>
+.parallax {
+    background-image:url("img/skull_bg.jpg");
+
+	min-height: 50%;
+	
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+	z-index: -100;
+	display: flex;
+}
+
+h1 {
+	color: White;
+	font-size: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+	font-size: 22px;
+}
+
+li a:hover {
+	color: black;
+	background-color: white;
+}
+
+nav {
+  display: block;
+}
+.gallery {
+	padding:50px;
+	float: left;
+	border: 1px solid #777;
+}
+
+table {
+	width:100%;
+
+}
+td {
+	padding: 5%;
+	width:25%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+.name {
+  color: white;
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.contain {
+  position: relative;
+  width: 75%;
+}
+.contain:hover .overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.textbox{
+	background-color:#999999;
+	margin:3%;
+	color:white;
+}
+
+center h1{
+	font-size:32px;
+	
+}
+
+p {
+	font-size:18px;
+	padding-left:4%;
+	padding-right:4%;
+}
+
+.outline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.info {
+	color:white;
+	font-size:22px;
+}
+</style>
+</head>
+
+<body style="background-color:#595959">
+<div class=parallax>
+<h1>-----BLACKSHEEP------</h1>
+</div>
+<nav>
+ <ul>
+  <li><a href="contact.html">ติดต่อ</a></li>
+  <li><a href="music.html">เพลง</a></li>
+  <li><a href="info.html">ข้อมูล</a></li>
+  <li><a href="main.html">หน้าหลัก</a></li>
+ </ul>
+</nav>
+
+<div class="textbox">
+<table>
+	<tr>
+		<td class="image"><img src="img/blacksheep.jpg" class="image"></img></td>
+		<td><font class="info">AKA : BLACKSHEEP</font></br></br></br></br></br><font class="info">ผลงานที่มี: HOPE,หน้าหนาวใกล้เข้ามา,NIGHT</font></td>
+	</tr>
+	<tr>
+		<td><iframe width="425" height="250" src="https://www.youtube.com/embed/0Z8zIVy8oMA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
+		<td><iframe width="425" height="250" src="https://www.youtube.com/embed/m8g5TruAPsM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
+		<td><iframe width="425" height="250" src="https://www.youtube.com/embed/fUy0Nbz6gu4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
+	</tr>
+</table>
+</div>
+
+
+</body>
+</html>
